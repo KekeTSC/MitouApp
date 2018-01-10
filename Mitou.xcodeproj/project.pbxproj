@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435384A8C01121DE018EB83 /* Pods_Mitou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D71B82CF6E7AE8216BE7FD9 /* Pods_Mitou.framework */; };
+		B82E430B1FFF3EFA00F045F6 /* MyChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E430A1FFF3EFA00F045F6 /* MyChallengesViewController.swift */; };
+		B82E430D1FFF400000F045F6 /* PartnerChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E430C1FFF400000F045F6 /* PartnerChallengesViewController.swift */; };
+		B82E430F1FFF400C00F045F6 /* SexCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E430E1FFF400C00F045F6 /* SexCounterViewController.swift */; };
+		B82E43111FFF401800F045F6 /* ProposeActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E43101FFF401800F045F6 /* ProposeActivityViewController.swift */; };
+		B82E43131FFFACE700F045F6 /* GamerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E43121FFFACE600F045F6 /* GamerModel.swift */; };
+		B82E43151FFFAD2B00F045F6 /* RelationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E43141FFFAD2B00F045F6 /* RelationModel.swift */; };
+		B82E43171FFFB01000F045F6 /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E43161FFFB01000F045F6 /* ChallengeModel.swift */; };
+		B82E43191FFFB20900F045F6 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E43181FFFB20900F045F6 /* GameController.swift */; };
+		B833BDAB20060CA600B72508 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDA720060CA500B72508 /* CustomKolodaView.swift */; };
+		B833BDAC20060CA600B72508 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDA820060CA600B72508 /* CustomOverlayView.swift */; };
+		B833BDAD20060CA600B72508 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */; };
+		B833BDAE20060CA600B72508 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */; };
+		B833BDB12006114C00B72508 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B833BDB32006114C00B72508 /* CustomOverlayView.xib */; };
 		B85456DA1FFEAA7D00CF85D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85456D91FFEAA7D00CF85D2 /* AppDelegate.swift */; };
-		B85456DC1FFEAA7D00CF85D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85456DB1FFEAA7D00CF85D2 /* ViewController.swift */; };
+		B85456DC1FFEAA7D00CF85D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */; };
 		B85456DF1FFEAA7D00CF85D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85456DD1FFEAA7D00CF85D2 /* Main.storyboard */; };
 		B85456E11FFEAA7D00CF85D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85456E01FFEAA7D00CF85D2 /* Assets.xcassets */; };
 		B85456E41FFEAA7D00CF85D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85456E21FFEAA7D00CF85D2 /* LaunchScreen.storyboard */; };
+		B85456EF1FFED15800CF85D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85456F11FFED15800CF85D2 /* GoogleService-Info.plist */; };
+		B8B0479D1FFED6CC00574D04 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0479C1FFED6CC00574D04 /* AuthController.swift */; };
+		B8B0479F1FFF0AEB00574D04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */; };
+		B8B047A31FFF28FF00574D04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B047A21FFF28FF00574D04 /* HomeViewController.swift */; };
+		B8CC96D31FFFCC6300D65473 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC96D21FFFCC6300D65473 /* LinkViewController.swift */; };
+		B8CC96D51FFFE22800D65473 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC96D41FFFE22800D65473 /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47825546C599228296A4640B /* Pods-Mitou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitou.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mitou/Pods-Mitou.release.xcconfig"; sourceTree = "<group>"; };
+		4D71B82CF6E7AE8216BE7FD9 /* Pods_Mitou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mitou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47039A269E15E20F4E8D6FD /* Pods-Mitou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mitou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mitou/Pods-Mitou.debug.xcconfig"; sourceTree = "<group>"; };
+		B82E430A1FFF3EFA00F045F6 /* MyChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChallengesViewController.swift; sourceTree = "<group>"; };
+		B82E430C1FFF400000F045F6 /* PartnerChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerChallengesViewController.swift; sourceTree = "<group>"; };
+		B82E430E1FFF400C00F045F6 /* SexCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexCounterViewController.swift; sourceTree = "<group>"; };
+		B82E43101FFF401800F045F6 /* ProposeActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposeActivityViewController.swift; sourceTree = "<group>"; };
+		B82E43121FFFACE600F045F6 /* GamerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerModel.swift; sourceTree = "<group>"; };
+		B82E43141FFFAD2B00F045F6 /* RelationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationModel.swift; sourceTree = "<group>"; };
+		B82E43161FFFB01000F045F6 /* ChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
+		B82E43181FFFB20900F045F6 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		B833BDA720060CA500B72508 /* CustomKolodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		B833BDA820060CA600B72508 /* CustomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
+		B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		B833BDB22006114C00B72508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomOverlayView.xib; sourceTree = "<group>"; };
 		B85456D61FFEAA7D00CF85D2 /* Mitou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85456D91FFEAA7D00CF85D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B85456DB1FFEAA7D00CF85D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B85456DE1FFEAA7D00CF85D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B85456E01FFEAA7D00CF85D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B85456E31FFEAA7D00CF85D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B85456E51FFEAA7D00CF85D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85456F01FFED15800CF85D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8B0479C1FFED6CC00574D04 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8B047A21FFF28FF00574D04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8CC96D21FFFCC6300D65473 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		B8CC96D41FFFE22800D65473 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0435384A8C01121DE018EB83 /* Pods_Mitou.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38409BDF0F6D3B847C3A4B9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D71B82CF6E7AE8216BE7FD9 /* Pods_Mitou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B82E43071FFF3DC000F045F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */,
+				B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */,
+				B8CC96D21FFFCC6300D65473 /* LinkViewController.swift */,
+				B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */,
+				B8B047A21FFF28FF00574D04 /* HomeViewController.swift */,
+				B82E430A1FFF3EFA00F045F6 /* MyChallengesViewController.swift */,
+				B82E430C1FFF400000F045F6 /* PartnerChallengesViewController.swift */,
+				B82E430E1FFF400C00F045F6 /* SexCounterViewController.swift */,
+				B82E43101FFF401800F045F6 /* ProposeActivityViewController.swift */,
+				B8CC96D41FFFE22800D65473 /* EditProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B82E43081FFF3EC900F045F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B833BDA820060CA600B72508 /* CustomOverlayView.swift */,
+				B833BDA720060CA500B72508 /* CustomKolodaView.swift */,
+				B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */,
+				B8B0479C1FFED6CC00574D04 /* AuthController.swift */,
+				B82E43181FFFB20900F045F6 /* GameController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B82E43091FFF3ED600F045F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B82E43121FFFACE600F045F6 /* GamerModel.swift */,
+				B82E43141FFFAD2B00F045F6 /* RelationModel.swift */,
+				B82E43161FFFB01000F045F6 /* ChallengeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B85456CD1FFEAA7D00CF85D2 = {
 			isa = PBXGroup;
 			children = (
 				B85456D81FFEAA7D00CF85D2 /* Mitou */,
 				B85456D71FFEAA7D00CF85D2 /* Products */,
+				F90D91CFB37D7641683A14D4 /* Pods */,
+				38409BDF0F6D3B847C3A4B9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +146,27 @@
 		B85456D81FFEAA7D00CF85D2 /* Mitou */ = {
 			isa = PBXGroup;
 			children = (
+				B82E43091FFF3ED600F045F6 /* Models */,
+				B82E43081FFF3EC900F045F6 /* Controllers */,
+				B82E43071FFF3DC000F045F6 /* ViewControllers */,
 				B85456D91FFEAA7D00CF85D2 /* AppDelegate.swift */,
-				B85456DB1FFEAA7D00CF85D2 /* ViewController.swift */,
 				B85456DD1FFEAA7D00CF85D2 /* Main.storyboard */,
 				B85456E01FFEAA7D00CF85D2 /* Assets.xcassets */,
 				B85456E21FFEAA7D00CF85D2 /* LaunchScreen.storyboard */,
+				B833BDB32006114C00B72508 /* CustomOverlayView.xib */,
 				B85456E51FFEAA7D00CF85D2 /* Info.plist */,
+				B85456F11FFED15800CF85D2 /* GoogleService-Info.plist */,
 			);
 			path = Mitou;
+			sourceTree = "<group>";
+		};
+		F90D91CFB37D7641683A14D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47039A269E15E20F4E8D6FD /* Pods-Mitou.debug.xcconfig */,
+				47825546C599228296A4640B /* Pods-Mitou.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B85456E81FFEAA7D00CF85D2 /* Build configuration list for PBXNativeTarget "Mitou" */;
 			buildPhases = (
+				253597923B9EC4BF6D1421E2 /* [CP] Check Pods Manifest.lock */,
 				B85456D21FFEAA7D00CF85D2 /* Sources */,
 				B85456D31FFEAA7D00CF85D2 /* Frameworks */,
 				B85456D41FFEAA7D00CF85D2 /* Resources */,
+				AACD055CF94DB52E3C8A15EA /* [CP] Embed Pods Frameworks */,
+				22D402BD7BDD4541659F5059 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B85456E41FFEAA7D00CF85D2 /* LaunchScreen.storyboard in Resources */,
+				B85456EF1FFED15800CF85D2 /* GoogleService-Info.plist in Resources */,
+				B833BDB12006114C00B72508 /* CustomOverlayView.xib in Resources */,
 				B85456E11FFEAA7D00CF85D2 /* Assets.xcassets in Resources */,
 				B85456DF1FFEAA7D00CF85D2 /* Main.storyboard in Resources */,
 			);
@@ -131,19 +241,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22D402BD7BDD4541659F5059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mitou/Pods-Mitou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		253597923B9EC4BF6D1421E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mitou-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACD055CF94DB52E3C8A15EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mitou/Pods-Mitou-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/MDCSwipeToChoose/MDCSwipeToChoose.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDCSwipeToChoose.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mitou/Pods-Mitou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B85456D21FFEAA7D00CF85D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B85456DC1FFEAA7D00CF85D2 /* ViewController.swift in Sources */,
+				B82E430F1FFF400C00F045F6 /* SexCounterViewController.swift in Sources */,
+				B833BDAD20060CA600B72508 /* BackgroundKolodaAnimator.swift in Sources */,
+				B82E430D1FFF400000F045F6 /* PartnerChallengesViewController.swift in Sources */,
+				B833BDAC20060CA600B72508 /* CustomOverlayView.swift in Sources */,
+				B82E430B1FFF3EFA00F045F6 /* MyChallengesViewController.swift in Sources */,
+				B82E43171FFFB01000F045F6 /* ChallengeModel.swift in Sources */,
+				B8B047A31FFF28FF00574D04 /* HomeViewController.swift in Sources */,
+				B82E43111FFF401800F045F6 /* ProposeActivityViewController.swift in Sources */,
+				B833BDAE20060CA600B72508 /* BackgroundAnimationViewController.swift in Sources */,
+				B82E43151FFFAD2B00F045F6 /* RelationModel.swift in Sources */,
+				B85456DC1FFEAA7D00CF85D2 /* LoginViewController.swift in Sources */,
+				B8CC96D51FFFE22800D65473 /* EditProfileViewController.swift in Sources */,
+				B82E43131FFFACE700F045F6 /* GamerModel.swift in Sources */,
+				B8B0479D1FFED6CC00574D04 /* AuthController.swift in Sources */,
+				B8CC96D31FFFCC6300D65473 /* LinkViewController.swift in Sources */,
 				B85456DA1FFEAA7D00CF85D2 /* AppDelegate.swift in Sources */,
+				B833BDAB20060CA600B72508 /* CustomKolodaView.swift in Sources */,
+				B8B0479F1FFF0AEB00574D04 /* MainViewController.swift in Sources */,
+				B82E43191FFFB20900F045F6 /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B833BDB32006114C00B72508 /* CustomOverlayView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B833BDB22006114C00B72508 /* Base */,
+			);
+			name = CustomOverlayView.xib;
+			sourceTree = "<group>";
+		};
 		B85456DD1FFEAA7D00CF85D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -158,6 +359,14 @@
 				B85456E31FFEAA7D00CF85D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B85456F11FFED15800CF85D2 /* GoogleService-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85456F01FFED15800CF85D2 /* Base */,
+			);
+			name = "GoogleService-Info.plist";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +481,7 @@
 		};
 		B85456E91FFEAA7D00CF85D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47039A269E15E20F4E8D6FD /* Pods-Mitou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +497,7 @@
 		};
 		B85456EA1FFEAA7D00CF85D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47825546C599228296A4640B /* Pods-Mitou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

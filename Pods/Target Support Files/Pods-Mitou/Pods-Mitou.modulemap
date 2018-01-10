@@ -1,0 +1,6 @@
+framework module Pods_Mitou {
+  umbrella header "Pods-Mitou-umbrella.h"
+
+  export *
+  module * { export * }
+}
