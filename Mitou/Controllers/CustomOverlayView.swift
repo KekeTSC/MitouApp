@@ -19,7 +19,6 @@ class CustomOverlayView: OverlayView {
         
         var imageView = UIImageView(frame: self.bounds)
         self.addSubview(imageView)
-        
         return imageView
         }()
     

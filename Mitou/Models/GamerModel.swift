@@ -28,5 +28,4 @@ class GamerModel {
         self.challengeFailed = challengeFailed
         self.hasChallenge = hasChallenge
     }
-    
 }

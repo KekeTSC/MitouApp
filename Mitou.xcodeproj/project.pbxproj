@@ -21,12 +21,17 @@
 		B833BDAD20060CA600B72508 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */; };
 		B833BDAE20060CA600B72508 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */; };
 		B833BDB12006114C00B72508 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B833BDB32006114C00B72508 /* CustomOverlayView.xib */; };
+		B83CB0A22008C10F00026DB5 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83CB0A12008C10F00026DB5 /* Observer.swift */; };
 		B85456DA1FFEAA7D00CF85D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85456D91FFEAA7D00CF85D2 /* AppDelegate.swift */; };
 		B85456DC1FFEAA7D00CF85D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */; };
 		B85456DF1FFEAA7D00CF85D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85456DD1FFEAA7D00CF85D2 /* Main.storyboard */; };
 		B85456E11FFEAA7D00CF85D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85456E01FFEAA7D00CF85D2 /* Assets.xcassets */; };
 		B85456E41FFEAA7D00CF85D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85456E21FFEAA7D00CF85D2 /* LaunchScreen.storyboard */; };
 		B85456EF1FFED15800CF85D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85456F11FFED15800CF85D2 /* GoogleService-Info.plist */; };
+		B85BD1A4200690E70094B4A1 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85BD1A3200690E70094B4A1 /* CardView.xib */; };
+		B85BD1A6200691300094B4A1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BD1A5200691300094B4A1 /* CardView.swift */; };
+		B85BD1A820077A8A0094B4A1 /* AddChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BD1A720077A8A0094B4A1 /* AddChallengeViewController.swift */; };
+		B8705AAF2007A276000B9B2B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8705AAE2007A276000B9B2B /* SplashViewController.swift */; };
 		B8B0479D1FFED6CC00574D04 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0479C1FFED6CC00574D04 /* AuthController.swift */; };
 		B8B0479F1FFF0AEB00574D04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */; };
 		B8B047A31FFF28FF00574D04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B047A21FFF28FF00574D04 /* HomeViewController.swift */; };
@@ -51,6 +56,7 @@
 		B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
 		B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
 		B833BDB22006114C00B72508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomOverlayView.xib; sourceTree = "<group>"; };
+		B83CB0A12008C10F00026DB5 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		B85456D61FFEAA7D00CF85D2 /* Mitou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85456D91FFEAA7D00CF85D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,10 @@
 		B85456E31FFEAA7D00CF85D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B85456E51FFEAA7D00CF85D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B85456F01FFED15800CF85D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B85BD1A3200690E70094B4A1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		B85BD1A5200691300094B4A1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B85BD1A720077A8A0094B4A1 /* AddChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChallengeViewController.swift; sourceTree = "<group>"; };
+		B8705AAE2007A276000B9B2B /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B8B0479C1FFED6CC00574D04 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B8B047A21FFF28FF00574D04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +99,7 @@
 		B82E43071FFF3DC000F045F6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */,
+				B8705AAE2007A276000B9B2B /* SplashViewController.swift */,
 				B85456DB1FFEAA7D00CF85D2 /* LoginViewController.swift */,
 				B8CC96D21FFFCC6300D65473 /* LinkViewController.swift */,
 				B8B0479E1FFF0AEB00574D04 /* MainViewController.swift */,
@@ -99,6 +109,8 @@
 				B82E430E1FFF400C00F045F6 /* SexCounterViewController.swift */,
 				B82E43101FFF401800F045F6 /* ProposeActivityViewController.swift */,
 				B8CC96D41FFFE22800D65473 /* EditProfileViewController.swift */,
+				B833BDAA20060CA600B72508 /* BackgroundAnimationViewController.swift */,
+				B85BD1A720077A8A0094B4A1 /* AddChallengeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -111,6 +123,8 @@
 				B833BDA920060CA600B72508 /* BackgroundKolodaAnimator.swift */,
 				B8B0479C1FFED6CC00574D04 /* AuthController.swift */,
 				B82E43181FFFB20900F045F6 /* GameController.swift */,
+				B85BD1A5200691300094B4A1 /* CardView.swift */,
+				B83CB0A12008C10F00026DB5 /* Observer.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +168,7 @@
 				B85456E01FFEAA7D00CF85D2 /* Assets.xcassets */,
 				B85456E21FFEAA7D00CF85D2 /* LaunchScreen.storyboard */,
 				B833BDB32006114C00B72508 /* CustomOverlayView.xib */,
+				B85BD1A3200690E70094B4A1 /* CardView.xib */,
 				B85456E51FFEAA7D00CF85D2 /* Info.plist */,
 				B85456F11FFED15800CF85D2 /* GoogleService-Info.plist */,
 			);
@@ -233,6 +248,7 @@
 			files = (
 				B85456E41FFEAA7D00CF85D2 /* LaunchScreen.storyboard in Resources */,
 				B85456EF1FFED15800CF85D2 /* GoogleService-Info.plist in Resources */,
+				B85BD1A4200690E70094B4A1 /* CardView.xib in Resources */,
 				B833BDB12006114C00B72508 /* CustomOverlayView.xib in Resources */,
 				B85456E11FFEAA7D00CF85D2 /* Assets.xcassets in Resources */,
 				B85456DF1FFEAA7D00CF85D2 /* Main.storyboard in Resources */,
@@ -284,6 +300,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Mitou/Pods-Mitou-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
 				"${BUILT_PRODUCTS_DIR}/MDCSwipeToChoose/MDCSwipeToChoose.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -294,6 +311,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDCSwipeToChoose.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -318,6 +336,7 @@
 				B833BDAC20060CA600B72508 /* CustomOverlayView.swift in Sources */,
 				B82E430B1FFF3EFA00F045F6 /* MyChallengesViewController.swift in Sources */,
 				B82E43171FFFB01000F045F6 /* ChallengeModel.swift in Sources */,
+				B83CB0A22008C10F00026DB5 /* Observer.swift in Sources */,
 				B8B047A31FFF28FF00574D04 /* HomeViewController.swift in Sources */,
 				B82E43111FFF401800F045F6 /* ProposeActivityViewController.swift in Sources */,
 				B833BDAE20060CA600B72508 /* BackgroundAnimationViewController.swift in Sources */,
@@ -326,11 +345,14 @@
 				B8CC96D51FFFE22800D65473 /* EditProfileViewController.swift in Sources */,
 				B82E43131FFFACE700F045F6 /* GamerModel.swift in Sources */,
 				B8B0479D1FFED6CC00574D04 /* AuthController.swift in Sources */,
+				B85BD1A6200691300094B4A1 /* CardView.swift in Sources */,
+				B85BD1A820077A8A0094B4A1 /* AddChallengeViewController.swift in Sources */,
 				B8CC96D31FFFCC6300D65473 /* LinkViewController.swift in Sources */,
 				B85456DA1FFEAA7D00CF85D2 /* AppDelegate.swift in Sources */,
 				B833BDAB20060CA600B72508 /* CustomKolodaView.swift in Sources */,
 				B8B0479F1FFF0AEB00574D04 /* MainViewController.swift in Sources */,
 				B82E43191FFFB20900F045F6 /* GameController.swift in Sources */,
+				B8705AAF2007A276000B9B2B /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

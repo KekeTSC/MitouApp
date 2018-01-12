@@ -12,5 +12,6 @@ pod 'Firebase/Storage'
 pod 'Firebase/Database'
 pod "Koloda"
 pod "MDCSwipeToChoose"
+pod 'JGProgressHUD'
 
 end

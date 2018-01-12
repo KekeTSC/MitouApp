@@ -34,9 +34,7 @@ class EditProfileViewController: UIViewController {
         ref.child("Gamers").child(authController.myUID).child("lastName").setValue(lastNameTextField.text!)
         ref.child("Gamers").child(authController.myUID).child("firstName").setValue(firstNameTextField.text!) { (error, ref) in
             if error ==  nil {
-                self.dismiss(animated: true, completion: {
-                    
-                })
+                self.dismiss(animated: true, completion: nil)
             }
         }
         
